@@ -1,0 +1,24 @@
+{
+  "name": "smodr-cron",
+  "version": "1.0.0",
+  "description": "Smodr CRON jobs",
+  "main": "update-feeds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinTCoughlin/smodr-cron.git"
+  },
+  "keywords": [
+    "Smodr",
+    "CRON"
+  ],
+  "author": "Kevin Coughlin",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^1.1.4",
+    "firebase": "^3.3.0",
+    "request": "^2.74.0"
+  }
+}
